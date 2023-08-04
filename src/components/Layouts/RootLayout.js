@@ -1,5 +1,6 @@
 import { Layout } from "antd";
 import Navbar from "../UI/Common/Navbar";
+import FooterPage from "../UI/Common/Footer";
 const { Content } = Layout;
 
 const RootLayout = ({ children }) => {
@@ -18,7 +19,7 @@ const RootLayout = ({ children }) => {
             {children}
           </div>
         </Content>
-        This is Footer
+        <FooterPage />
       </Layout>
     </div>
   );

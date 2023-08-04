@@ -24,12 +24,12 @@
   display: block;
 }
 
-/* .footer {
-    background: url("../assets//images/footer-bg1.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-  } */
+.footer {
+  background: url("../assets//images/footer-bg1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
 
 /* TopBanner */
 
