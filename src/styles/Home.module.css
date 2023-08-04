@@ -1,0 +1,85 @@
+.social_icons a {
+  font-size: 28px;
+  margin: 15px 3px;
+}
+
+.menu_items a {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.line {
+  height: 5px;
+  margin: 10px 0;
+  background: #fff;
+}
+
+/* Navbar */
+.mobileVisible {
+  display: none;
+}
+
+.mobileHidden {
+  display: block;
+}
+
+/* .footer {
+    background: url("../assets//images/footer-bg1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  } */
+
+/* TopBanner */
+
+.heroBlock {
+  /* background: url("../assets//images/bg-hero.jpg") no-repeat; */
+  /* background: url("../assets//images/footer-bg1.jpg") no-repeat; */
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+}
+
+.bannerContent {
+  padding: 80px 30px 0 30px;
+}
+
+.bannerContent p {
+  width: 50%;
+  margin: 20px 0;
+}
+
+/* Faq */
+.faqContainer {
+  margin: 0px 200px;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobileVisible {
+    display: block;
+  }
+
+  .mobileHidden {
+    display: none;
+  }
+
+  /* TopBanner */
+
+  .heroBlock {
+    height: 350px;
+  }
+
+  .bannerContent {
+    padding: 30px 10px;
+  }
+
+  .bannerContent p {
+    width: 100%;
+  }
+
+  .faqContainer {
+    margin: 0px 0px;
+  }
+}
