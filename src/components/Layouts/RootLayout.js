@@ -12,7 +12,7 @@ const RootLayout = ({ children }) => {
           <div
             className="site-layout-content"
             style={{
-              padding: "0 24px",
+              padding: "0",
               minHeight: "100vh",
             }}
           >

@@ -34,12 +34,12 @@
 /* TopBanner */
 
 .heroBlock {
-  /* background: url("../assets//images/bg-hero.jpg") no-repeat; */
+  background: url("../assets//images/bg-hero2.jpg") no-repeat;
   /* background: url("../assets//images/footer-bg1.jpg") no-repeat; */
   background-position: 50% 100%;
   background-size: cover;
   height: 500px;
-  width: 100px;
+  width: 100%;
 }
 
 .bannerContent {
@@ -68,7 +68,7 @@
   /* TopBanner */
 
   .heroBlock {
-    height: 350px;
+    height: 400px;
   }
 
   .bannerContent {
